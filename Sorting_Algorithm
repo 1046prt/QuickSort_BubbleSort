@@ -1,3 +1,28 @@
+#Linear_Searching: 
+# Defining Searching:
+def search(matrix, key):
+    found = False
+    for i in range(len(matrix)):
+        if matrix[i] == key:
+            print(f"The key found at cell: {i}")
+            found = True
+            break
+    if not found:
+        print("Key Not Found")
+
+# Creation of 1D Array:
+matrix = []
+size = int(input("Enter the size of 1D Array: "))
+for i in range(size):
+    matrix.append(int(input(f"Enter element {i + 1}: ")))
+
+# Printing of created Array:
+print("The Array is:")
+print(matrix)
+
+key = int(input("Enter the key value to search in the array: "))
+search(matrix, key)
+
 # Initialize an empty list to store the array elements
 arr = []
 

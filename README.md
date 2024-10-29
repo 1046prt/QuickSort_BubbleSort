@@ -1,30 +1,28 @@
-arr = []
-n = int(input("Enter the size of the array: "))
-print("Enter the elements of the array:")
-for i in range(n):
-    ele = int(input())
-    arr.append(ele)
-print("The array is:", arr)
+# Sorting Algorithms in Python
 
-#Bubble_Sort():
-def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-    return arr
-sorted_arr = bubble_sort(arr)
-print("The sorted array is:", sorted_arr)
+This repository contains implementations of two popular sorting algorithms: Bubble Sort and Quick Sort. 
 
-#Quick_Sort():
-def quick_sort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = arr[len(arr) // 2]
-    left = [x for x in arr if x < pivot]
-    middle = [x for x in arr if x == pivot]
-    right = [x for x in arr if x > pivot]
-    return quick_sort(left) + middle + quick_sort(right)
-sorted_arr_quick = quick_sort(arr)
-print("The sorted array (quick sort) is:", sorted_arr_quick)
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Algorithms](#algorithms)
+  - [Bubble Sort](#bubble-sort)
+  - [Quick Sort](#quick-sort)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+This project demonstrates how to implement sorting algorithms in Python. Sorting is a fundamental operation in computer science, and understanding different algorithms helps in choosing the right one for various scenarios.
+
+## Getting Started
+To run this code, you need to have Python installed on your machine. You can download Python from [python.org](https://www.python.org/).
+
+### Prerequisites
+- Python 3.x
+
+## Usage
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/sorting-algorithms.git
+   cd sorting-algorithms

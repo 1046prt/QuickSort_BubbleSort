@@ -1,4 +1,5 @@
-# Sorting Algorithms in Python
+#Quick and Bubble 
+Sorting Algorithms in Python
 
 This repository contains implementations of two popular sorting algorithms: Bubble Sort and Quick Sort. 
 
@@ -24,5 +25,6 @@ To run this code, you need to have Python installed on your machine. You can dow
 ## Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/sorting-algorithms.git
-   cd sorting-algorithms
+   git clone https://github.com/1046prt/QuickSort_BubbleSort.git
+   cd QuickSort_BubbleSort.py
+   

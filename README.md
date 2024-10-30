@@ -58,4 +58,4 @@ Contributions are welcome! Feel free to fork the repository, make improvements, 
 This project is licensed under the MIT License.
 
 ## Author
-(https://github.com/1046prt)
+https://github.com/1046prt
